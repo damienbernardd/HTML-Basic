@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Les bases de l'html</title>
+</head>
+<body>
+  <h1>Les bases de l'html</h1>
+    <h2>-Les balises</h2>
+      <h3>-Les balises paires</h3>
+        <p>Une balise paire, est une balise possédant une balise d'ouverture <...> et une balise de fermeture < /...>. </p>
+          <p><strong>Exemples:</strong></p>
+            <ul>
+              <li>&lthead&gt</li>
+              <li>&ltbody&gt</li>
+              <li>&lttitle&gt</li>
+              <li>&ltp&gt</li>
+              <li>&lth1&gt</li>
+            </ul>
+            <p> Source: <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/votre-premiere-page-web-en-html"> lien </a> </p>
+
+      <h3>-Les balises orphelines</h3>
+        <p>Une balise orpheline <strong>(auto fermante)</strong>, est une balise possédant une balise d'ouverture mais pas de balise de fermeture.</p>
+          <p><strong>Exemples:</strong></p>
+            <ul>
+              <li>&ltbr&gt</li>
+              <li>&lthr&gt</li>
+              <li>&ltinput&gt</li>
+            </ul>
+            <p> Source: <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/votre-premiere-page-web-en-html"> lien </a> </p>
+    <h2>-Les attributs</h2>
+      <p>Un attribut est une instruction contenue à l'intérieur d'une balise et dont le but est de fournir une information supplémentaire sur la manière dont cette balise doit être interprétée.</p>
+        <p>Source: <a href="http://www.dicodunet.com/definitions/normes/attribut.htm">lien </a></p>
+    <h2>-La différence entre inline et block</h2>
+      <h4>Les balises block:</h4>
+        <p>Les balises block sont celles qui composent leur propre bloc, donc qui forcent un retour à la ligne avant et après.</p>
+          <ul>
+            <li>&ltp&gt</li>
+            <li>&ltfooter&gt</li>
+            <li>&lth1&gt</li>
+          </ul>
+      <h4>Les balises inline</h4>
+        <p>Les balises inline sont celles qui ne composent pas leur propre bloc, et peuvent donc s'utiliser dans des balises de type block sans faire de retour à la ligne.</p>
+          <ul>
+            <li>&ltem&gt</li>
+            <li>&ltstrong&gt</li>
+            <li>&lta&gt</li>
+          </ul>
+          <p>Source: <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/le-modele-des-boites"> Lien </a></p>
+    <h2>-Le markdown et l'html</h2>
+      <pre>
+        <h4> Insérer une image: </h4>
+          <p><strong>En markdown</strong></p>
+            ![Zozor](http://uploads.siteduzero.com/files/420001_421000/420263.png)
+          <p><strong>En html</strong></p>
+            &ltimg src="http://www.monsite.com/image.png" alt="Zozor" /&gt
+
+        <h4> Insérer une citation:</h4>
+          <p><strong>En markdown</strong></p>
+            > Ceci est un texte cité. Vous pouvez répondre
+
+            > à cette citation en écrivant un paragraphe
+
+            > normal juste en-dessous !
+          <p><strong>En html</strong></p>
+            &ltblockquote>&ltp>Ceci est un texte cité. Vous pouvez répondre à cette citation en écrivant un paragraphe normal juste en-dessous !&lt/p>&lt/blockquote>
+
+        <h4> Insérer une vidéo youtube:</h4>
+          <p><strong>En markdown</strong></p>
+            @[youtube](dQw4w9WgXcQ)
+          <p><strong>En html</strong></p>
+            &ltp>&ltdiv class="embed-responsive embed-responsive-16by9">&ltiframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390"src="//www.youtube.com/embed/dQw4w9WgXcQ"frameborder="0"/>&lt/div>&lt/p>
+
+        <p>Sources: <a href="https://github.com/jamstatic/jamstatic-fr/wiki/Pense-b%C3%AAte-Markdown">Lien</a></p>
+      </pre>
+
+</body>
+</html>
